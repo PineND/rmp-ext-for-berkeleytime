@@ -1,0 +1,17 @@
+.rmp-button {
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  white-space: nowrap;
+  height: 34px;
+  padding: 6px 12px;
+  border: 1.5px solid #eaeaea;
+  border-radius: 50vh !important;
+  background: white;
+  text-align: center;
+  color: #383838;
+  font-size: 14px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 4px;
+}
