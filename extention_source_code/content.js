@@ -7,11 +7,13 @@ let cur_reddit_link = ''
 let cur_rmp_array = [] // array of rmp information for page display
 let pending_rmp_array = [] // array of rmp information currently being fetched, prevents multiple concurrent fetches
 
-const local_host_port = 3000
+// example: 'http://localhost:3000'
+const proxy = 'http://localhost:3000'
 
 // innitial access to the dynamic component
 const dynamic_elements = document.getElementById("root").getElementsByClassName("app")[0].children[1].children[2]
 
+// update the injected button elements with current rmp array
 function rmp_information_display() {
   const position = 6
 
@@ -85,7 +87,7 @@ function fetch_rmp_information(name) {
   const difficulty_xpath = "/html/body/div[2]/div/div/div[3]/div[1]/div[1]/div[4]/a/div/div[2]/div[3]/div[3]"
   const prof_id_xpath = "/html/body/div[2]/div/div/div[3]/div[1]/div[1]/div[4]/a[1]"
 
-  fetch('http://localhost:' + local_host_port + '/fetch?url=' + encodeURIComponent(url))
+  fetch(proxy + '/fetch?url=' + encodeURIComponent(url))
   .then(response => {
     if (!response.ok) { throw new Error('Network response was not ok'); }
     return response.text();
