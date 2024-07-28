@@ -1,6 +1,6 @@
 # Ratemyprof extention for Berkeleytime
 This extension enhances the Berkeleytime course catalog by adding RateMyProfessor statistics directly to the catalog panels. This is meant to be as a proof of concept.
-Scraping data from RateMyProfessors is against their terms of service, a production version would have significantly different functionalities.
+Scraping data from RateMyProfessors is against their terms of service, a production version of the extention would have significantly reduced functionalities.
 
 # Example
 ![Example Usage](example.png)
