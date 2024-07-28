@@ -1,2 +1,2 @@
-# rmp-ext-for-berkeleytime
+# Ratemyprof extention for Berkeleytime
 Extention that adds Ratemyprof statistics to Berkeleytime
