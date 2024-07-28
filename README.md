@@ -1,5 +1,5 @@
 # Ratemyprofessors extention for Berkeleytime
-This extension enhances the Berkeleytime course catalog by adding RateMyProfessors statistics directly to the catalog panels. This is meant to be as a proof of concept.
+This extension enhances the Berkeleytime course catalog by adding RateMyProfessors statistics directly to the catalog page. This is meant to be as a proof of concept.
 Scraping data from RateMyProfessors is against their terms of service, a production version of the extention would have significantly reduced functionalities.
 
 # Example
@@ -7,7 +7,8 @@ Scraping data from RateMyProfessors is against their terms of service, a product
 
 ## Set Up
 1. Install dependencies and start local server.
-2. Load unpacked extention to chromium based browser in developer mode.
+2. Ensure that the extention is configured to the correct proxy host. Configuration is made by editting the proxy constant in content.js
+3. Load unpacked extention to chromium based browser in developer mode.
     
 ## How It Works
 1. DOM Monitoring: The extension uses MutationObserver to watch for updates to the course panel on the Berkeleytime catalog page.
