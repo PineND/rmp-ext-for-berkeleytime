@@ -3,7 +3,7 @@ This extension enhances the Berkeleytime course catalog by adding RateMyProfesso
 Scraping data from RateMyProfessors is against their terms of service, a production version would have significantly different functionalities.
 
 # Example
-![Example Usage](rmp-extention/example.png)
+![Example Usage](example.png)
 
 ## Set Up
 1. Install dependencies and start local server.
